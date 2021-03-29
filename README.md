@@ -5,7 +5,7 @@ These codes were written by Tomer Stern and Ankit Agrawal. To learn about 3D MAP
 
 ## System Requirements
 
-Linux, Windows and Mac OS are supported for running the code. These scripts were written and compiled with MATLAB version R2016b and depend on MATLAB toolbox "Statistics and Machine Learning Toolbox". They require at least 4GB RAM (depending on number of objects in each image), but was tested primarily on a workstation with Windows 10 and 512 GB RAM.
+Linux, Windows and Mac OS are supported for running the code. These scripts were written and compiled with MATLAB version R2016b and depend on MATLAB toolbox "Statistics and Machine Learning Toolbox". They require at least 16GB RAM (depending on number of objects in each image). For the data size analyzed in [3D MAPs](https://github.com/ZelzerLab/3D-MAPs/blob/main/README.md/), at 256 GB RAM was needed. It was tested primarily on a workstation with Windows 10 and 512 GB RAM.
 
 ## Installation
 
@@ -99,6 +99,10 @@ ignore_edu = true;
 
 ![image](https://user-images.githubusercontent.com/58815992/112835803-6f386280-90a2-11eb-925b-1f58224a8cdd.png)
 
+5.  Run the script from the command window by typing the following and follow the instructions in the command window
+ ```
+main_remove_overlap
+```
 
 ## License
 [Apache-2.0](https://opensource.org/licenses/Apache-2.0)
