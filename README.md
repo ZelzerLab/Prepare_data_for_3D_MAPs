@@ -29,3 +29,19 @@ This script converts 3D binary tif images into a (Surfaces).mat file containing 
 
 ![image](https://user-images.githubusercontent.com/58815992/112824756-96d3fe80-9093-11eb-8ddc-2ba7aaa047ff.png)
 
+3. Set the voxel size of the image in microns [x,y,z].
+
+![image](https://user-images.githubusercontent.com/58815992/112825156-18c42780-9094-11eb-9506-9789a5886726.png)
+
+4. Create a variable with the data path containing all of the images to process by typing the following in the command window
+
+
+
+ ```
+path = 'F:\data'
+```
+
+5. Run the script from the command window by typing the following
+ ```
+prepare_segmentation_file_for_analysis(path)
+```
