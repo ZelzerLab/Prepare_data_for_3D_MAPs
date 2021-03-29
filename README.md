@@ -72,6 +72,33 @@ This script reads (Surfaces).mat files and extracts morphometrics on each object
 
 ![image](https://user-images.githubusercontent.com/58815992/112834331-870ee700-90a0-11eb-8f2d-e2f9d90053de.png)
 
+2. Open the script "main_remove_overlap" and set the data path. Nuclei and cell (Surfaces).mat files should be in the same directory.
+
+
+ ```
+data_dir_name = 'F:\data';
+```
+3. If you are running only nuclei then set 
+
+```
+ignore_cells = true;
+ignore_edu = true;
+```
+
+If you are running both cells and nuclei then set
+
+
+```
+ignore_cells = false;
+ignore_edu = true;
+```
+
+*Notes: The EDU field is a third binary field that can be activated. For example, whether the cells or nuclei have an EDU signal. This was not implemented in the manuscript.
+ 
+4. If there is a known shift between the two imaging channels in Z from the microscope than set the Z shift as a function of the nuclei slices. Otherwise, leave as 0.
+
+![image](https://user-images.githubusercontent.com/58815992/112835803-6f386280-90a2-11eb-925b-1f58224a8cdd.png)
+
 
 ## License
 [Apache-2.0](https://opensource.org/licenses/Apache-2.0)
