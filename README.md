@@ -5,7 +5,7 @@ These codes were written by Tomer Stern and Ankit Agrawal. To learn about 3D MAP
 
 ## System Requirements
 
-Linux, Windows and Mac OS are supported for running the code. These scripts were written and compiled with MATLAB version R2016b and depend on MATLAB toolbox "Statistics and Machine Learning Toolbox". They require at least 16GB RAM (depending on number of objects in each image). For the data size analyzed in [3D MAPs](https://github.com/ZelzerLab/3D-MAPs/blob/main/README.md/), at 256 GB RAM was needed. It was tested primarily on a workstation with Windows 10 and 512 GB RAM.
+Linux, Windows and Mac OS are supported for running the code. These scripts were written and compiled with MATLAB version R2016b and depend on MATLAB toolbox "Statistics and Machine Learning Toolbox". They require at least 16GB RAM (depending on number of objects in each image). For the data size analyzed in [3D MAPs](https://github.com/ZelzerLab/3D-MAPs/blob/main/README.md/), 256 GB RAM was needed. It was tested primarily on a workstation with Windows 10 and 512 GB RAM.
 
 ## Installation
 
