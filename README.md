@@ -58,6 +58,12 @@ This script merges multiple (Surfaces).mat files into one. This should only be p
 
 ![image](https://user-images.githubusercontent.com/58815992/112827256-c0daf000-9096-11eb-8e57-147f8635f496.png)
 
+3. Run the script from the command window by typing the following
+ ```
+mergingSurfaceFile
+```
+
+4. Replace the multiple (Surfaces).mat files with the single merged file.
 
 ## License
 [Apache-2.0](https://opensource.org/licenses/Apache-2.0)
