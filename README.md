@@ -13,7 +13,7 @@ This process should take less than 10 minutes.
 
 1. Install MATLAB version 2016b or later.
 2. Download the files from this repository. You can do this by cloning the repository or by downloading it as a ZIP folder.
-3. Unzip the folder and run.
+3. Unzip the folder and run. An example dataset can be found in the supplementary section of the manuscript.
 
 
 
