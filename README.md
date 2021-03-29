@@ -45,3 +45,6 @@ path = 'F:\data'
  ```
 prepare_segmentation_file_for_analysis(path)
 ```
+
+## License
+[Apache-2.0](https://opensource.org/licenses/Apache-2.0)
