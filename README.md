@@ -66,7 +66,7 @@ mergingSurfaceFile
 4. Replace the multiple (Surfaces).mat files with the single merged file.
 
 ## Creating (Characteristics).mat files
-This script reads (Surfaces).mat files and extracts morphometrics on each object. If cells and nuclei are given as an input it will store the nuclei data in G.nuc, cell data in G.cell, and the cells which have a matching nucleus in G.inter. Only cells with a matching nucleus less than the volume of the cell will be used for cell morphometric analysis in 3D MAPs,i.e. G.inter. 
+This script reads (Surfaces).mat files and extracts morphometrics on each object. If cells and nuclei are given as an input it will store the nuclei data in G.nuc, cell data in G.cell, and the cells which have a matching nucleus in G.inter. Only cells with a matching nucleus less than the volume of the cell will be used for cell morphometric analysis in 3D MAPs, i.e. G.inter. 
 
 1. Set the voxel overlap threshold for matching nuclei and cells by opening the script "edu_add_calc_morphological_characteristics_remove_overlap" and entering the desired threshold value. 
 
