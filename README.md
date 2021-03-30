@@ -1,4 +1,7 @@
 # Prepare_data_for_3D_MAPs
+![image](https://user-images.githubusercontent.com/58815992/112968847-5e94f480-9155-11eb-98d1-dcd0a43269b1.png)
+
+
 These scripts extract morphometric measurements from 3D binary images of cells and nuclei and prepares them as MATLAB files for [3D MAPs](https://github.com/ZelzerLab/3D-MAPs/blob/main/README.md/). 
 
 These codes were written by Tomer Stern and Ankit Agrawal. To learn about 3D MAPs, read the [preprint](https://www.biorxiv.org/content/10.1101/2020.07.28.225409v1/).
