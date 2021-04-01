@@ -107,5 +107,7 @@ ignore_edu = true;
 main_remove_overlap
 ```
 
+*Notes: ellipsoid_fit_new.mat is modified from Yury (2021). Ellipsoid fit (https://www.mathworks.com/matlabcentral/fileexchange/24693-ellipsoid-fit), MATLAB Central File Exchange. Retrieved April 1, 2021.
+
 ## License
 [Apache-2.0](https://opensource.org/licenses/Apache-2.0)
